@@ -41,7 +41,7 @@ Once a target is confirmed (e.g., `com.github.dead-user:repo`), this tool measur
 
 1.  Clone the repository:
     ```bash
-    git clone [https://github.com/itresit/necrojitpack.git](https://github.com/itresit/necrojitpack.git)
+    git clone https://github.com/itresit/necrojitpack.git
     cd necrojitpack
     ```
 
