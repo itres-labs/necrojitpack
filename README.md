@@ -13,8 +13,6 @@ These tools allow researchers and DevSecOps teams to:
 
 **Full Research Paper:** [Read the Article](https://labs.itresit.es/2026/02/18/supply-chain-necromancy-reborn-namespaces-in-jitpack-coordinates/)
 
----
-
 ## 🛠️ The Tools
 
 ### 1. JitPack Scanner (`jitpack_scanner.py`)
@@ -32,8 +30,6 @@ Once a target is confirmed (e.g., `com.github.dead-user:repo`), this tool measur
 * **CRITICAL:** Dynamic versions (`SNAPSHOT`, `+`, `latest`). Vulnerable to immediate RCE via repojacking.
 * **HIGH:** Mutable Tags (`v1.0`). Vulnerable to cache eviction/spoofing.
 * **SECURE:** Commit Hashes. Immutable.
-
----
 
 ## 🚀 Installation
 
@@ -67,8 +63,6 @@ Once a target is confirmed (e.g., `com.github.dead-user:repo`), this tool measur
     $env:GITHUB_TOKEN="ghp_your_token_here"
     ```
 
----
-
 ## 🕷️ Usage
 
 ### Running the Discovery Scanner
@@ -88,8 +82,6 @@ python impact_analyzer.py
 ```
 
 > **Output:** A summary table classifying usage by risk level.
-
----
 
 ## 🛡️ Mitigation
 
